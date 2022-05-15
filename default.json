@@ -1,0 +1,4 @@
+{
+  "extends": ["group:allNonMajor"],
+  "schedule": ["every weekend"]
+}
