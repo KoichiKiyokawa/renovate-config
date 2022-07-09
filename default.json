@@ -1,4 +1,19 @@
 {
   "extends": ["group:allNonMajor"],
-  "schedule": ["every weekend"]
+  "schedule": ["every weekend"],
+  "packageRules": [
+    {
+      "groupName": "NestJS",
+      "matchPackagePrefixes": [
+        "@nestjs/"
+      ]
+    },
+    {
+      "groupName": "Prisma",
+      "matchPackagePrefixes": [
+        "@prisma/",
+        "prisma"
+      ]
+    }
+  ]
 }
