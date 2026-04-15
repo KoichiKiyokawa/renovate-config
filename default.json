@@ -1,5 +1,6 @@
 {
   "extends": ["group:allNonMajor"],
+  "minimumReleaseAge": "7 days",
   "schedule": ["every weekend"],
   "packageRules": [
     {
